@@ -1,0 +1,15 @@
+module test {
+    yang-version 1;
+    namespace "urn:opendaylight:test";
+    prefix "tt";
+ 
+    revision "2014-10-17";
+ 
+ 
+   container cont {
+ 
+        leaf l {
+            type string;
+        }
+   }
+}
